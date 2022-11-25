@@ -81,7 +81,7 @@ a:hover>b{
 b{
     font-weight: 700;
 }
-.app{
+.app{ 
     width: calc(100% - 30px);
         /* padding: 0px 15px; */
 }
@@ -113,17 +113,17 @@ b{
     display: none;
     float: right;
     background-color: inherit;
-    /*background-color: #888888;*/
     padding: 10px 15px;
-    margin-top: 35px;
     border: none;
     color: #888888;
-    line-height: 80px;
+    line-height: 60px;
     font-size: 30px;
     font-weight: 100 !important;
 }
-.header-menu-burger:hover,.header-menu-burger:focus{
-    outline: none;
+.header-menu-burger i {
+    font-size: 20px;
+}
+.header-menu-burger i:hover{
     color: #F9B500;
 }
 
@@ -149,10 +149,9 @@ b{
     }
     .header-menu-item{
         display: block;
-        float: none;
-        width: 100%;
         padding: 5px !important;
         border-bottom: 1px solid #cecece;
+        margin-bottom: 20px;
     }
 }
 /* end of header*/
