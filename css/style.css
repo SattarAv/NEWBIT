@@ -120,10 +120,17 @@ b{
     font-size: 30px;
     font-weight: 100 !important;
 }
+<<<<<<< HEAD
 .header-menu-burger i {
     font-size: 20px;
 }
 .header-menu-burger i:hover{
+=======
+.header-menu-burger span {
+    font-weight: 600;
+}
+.header-menu-burger span:hover{
+>>>>>>> 4417ab0 (modify the header icon)
     color: #F9B500;
 }
 
