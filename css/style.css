@@ -65,13 +65,13 @@
     color: #F9B500;
 }
 a{
-    text-decoration: none;
-    transition: all 0.2s;
+    text-decoration: none !important;
+    transition: all 0.2s !important;
 }
 a:hover{
     text-decoration: none;
-    color: #F9B500;
-    transition: all 0.2s;
+    color: #F9B500 !important;
+    transition: all 0.2s !important;
 }
 a:hover>b{
     text-decoration: none;
@@ -83,15 +83,13 @@ b{
 }
 .app{ 
     width: calc(100% - 30px);
-        /* padding: 0px 15px; */
 }
-.header{
-    font-weight: 600;
-}
+
+/* header */
 .header-logo{
     float: left;
     height: 24px;
-    margin: 28px 0px;
+    margin: 28px 0;
 }
 .header-menu{
     float: right;
@@ -113,12 +111,9 @@ b{
     display: none;
     float: right;
     background-color: inherit;
-    padding: 10px 15px;
+    padding: 18px 15px;
     border: none;
-    color: #888888;
     line-height: 60px;
-    font-size: 30px;
-    font-weight: 100 !important;
 }
 .header-menu-burger span {
     font-weight: 600;
@@ -154,14 +149,11 @@ b{
         margin-bottom: 20px;
     }
 }
-/* end of header*/
+/* end header*/
 
-.intro-row{
-    width: 100%;
-}
+/* content */
 .intro-h-600px{
     height: 600px;
-    /*height < 768 auto*/
 }
 .intro-h-100{
     height: 100%;
@@ -301,7 +293,7 @@ b{
         margin-bottom: 10px;
     }
 }
-.container{
+.main-container{
     width: 100%;
     margin-top: 50px;
 }
@@ -406,6 +398,9 @@ b{
         }
     }
 }
+/* end content */
+
+/* footer */
 .footer{
     background-color: #191919;
     margin-top: 60px;
@@ -542,6 +537,7 @@ b{
         padding: 10px;
     }
 }
+/* end footer */
 
 
 
